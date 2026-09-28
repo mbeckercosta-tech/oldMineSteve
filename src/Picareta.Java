@@ -1,17 +1,19 @@
 public class Picareta {
     String materialP;
-    String durabilidadeP;
+    int durabilidadeP;
     int força;
 
 public void minerar(Bloco bloco){
-    if (this.durabilidadeP <=0){
+    if (this.força <= durabilidadeB){
         System.out.println("A picareta está quebrada");
         return;
     }
+    else
 
-    if (this.força < bloco.getDurabilidade()){
-        System.out.println();
+
+
     }
+
 
 
 }
