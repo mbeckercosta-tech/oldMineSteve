@@ -7,11 +7,12 @@ public Bloco (String material, int durabilidade){
     this.durabilidadeB = durabilidade;
 }
 public int getDurabilidadeB(){
-    return durabilidadeB
+    return durabilidadeB;
 }
 
 public String getMaterialB(){
-    return materialB
+    return materialB;
+
 }
 }
 
